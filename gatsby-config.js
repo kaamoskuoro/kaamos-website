@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Kamarikuoro Kaamos`,
+    description: `Kaamos on vuonna 2007 perustettu helsinkiläinen kamarikuoro, jota johtaa Visa Yrjölä.`,
   },
   plugins: [
     `gatsby-plugin-sass`,
