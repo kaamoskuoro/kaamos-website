@@ -1,7 +1,7 @@
 import React from "react"
 
+import "../style.scss"
 import Navbar from "./navbar"
-import "./layout.scss"
 import Banner from "./banner"
 import Sidebar from "./sidebar"
 
