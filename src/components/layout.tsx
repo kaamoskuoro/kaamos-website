@@ -2,6 +2,8 @@ import React from "react"
 
 import Navbar from "./navbar"
 import "./layout.scss"
+import Banner from "./banner"
+import Sidebar from "./sidebar"
 
 const Layout: React.FC = ({ children }) => (
   <>
@@ -9,7 +11,18 @@ const Layout: React.FC = ({ children }) => (
       <Navbar />
     </header>
 
-    <main className="container">{children}</main>
+    <main role="main" className="section pt-0">
+      <div className="container is-max-widescreen">
+        <Banner />
+        <hr className="mt-0" />
+        <div className="columns is-variable is-6">
+          <div className="column">{children}</div>
+          <div className="column is-4">
+            <Sidebar />
+          </div>
+        </div>
+      </div>
+    </main>
   </>
 )
 

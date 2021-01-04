@@ -6,7 +6,7 @@ const Navbar: React.FC = props => {
 
   return (
     <nav className="navbar is-primary">
-      <div className="container">
+      <div className="container is-max-widescreen">
         <div className="navbar-brand">
           <NavbarBurger
             isActive={isMenuExpanded}
