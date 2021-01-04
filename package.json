@@ -7,8 +7,6 @@
   "dependencies": {
     "bulma": "^0.9.1",
     "gatsby": "^2.26.1",
-    "gatsby-plugin-manifest": "^2.6.1",
-    "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sass": "^2.8.0",
     "node-sass": "^4.0.0",
