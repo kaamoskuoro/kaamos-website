@@ -11,8 +11,8 @@ const Sidebar: React.FC = () => (
   <aside>
     <h3 className="subtitle is-3">Ajankohtaista</h3>
 
-    {news.map((data: NewsItem) => (
-      <div className="block">
+    {news.map((data: NewsItem, index: number) => (
+      <div key={index} className="block">
         <h5 className="title is-5 mb-2">{data.title}</h5>
         <p>{data.body}</p>
       </div>
