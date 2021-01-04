@@ -15,7 +15,7 @@ const Layout: React.FC = ({ children }) => (
       <div className="container is-max-widescreen">
         <Banner />
         <hr className="mt-0" />
-        <div className="columns is-variable is-6">
+        <div className="columns">
           <div className="column">{children}</div>
           <div className="column is-4">
             <Sidebar />
