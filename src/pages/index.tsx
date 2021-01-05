@@ -19,8 +19,8 @@ const IndexPage: React.FC = () => (
       <img src={choir} />
     </figure>
     <div className="content">
-      {quotes.map((quote: Quote) => (
-        <div className="box">
+      {quotes.map((quote: Quote, index: number) => (
+        <div key={index} className="box">
           <p>{quote.body}</p>
           <p className="has-text-right">
             {quote.author}, <cite>{quote.publication}</cite>
