@@ -18,6 +18,7 @@ const Navbar: React.FC = props => {
             <NavbarItem path="/" title="Etusivu" />
             <NavbarItem path="/esittely/" title="Esittely" />
             <NavbarItem path="/johtaja/" title="Johtaja" />
+            <NavbarItem path="/ohjelmisto/" title="Ohjelmisto" />
           </div>
         </div>
       </div>
