@@ -19,6 +19,7 @@ const Navbar: React.FC = props => {
             <NavbarItem path="/esittely/" title="Esittely" />
             <NavbarItem path="/johtaja/" title="Johtaja" />
             <NavbarItem path="/ohjelmisto/" title="Ohjelmisto" />
+            <NavbarItem path="/konsertit/" title="Konsertit" />
           </div>
         </div>
       </div>

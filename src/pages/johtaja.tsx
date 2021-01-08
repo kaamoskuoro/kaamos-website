@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import visa from "../images/visa.jpg"
+import conductorImage from "../images/conductor.jpg"
 
 const Johtaja: React.FC = () => (
   <Layout>
@@ -31,7 +31,7 @@ const Johtaja: React.FC = () => (
       palkinto.
     </p>
 
-    <img src={visa} />
+    <img src={conductorImage} />
   </Layout>
 )
 

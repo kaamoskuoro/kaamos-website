@@ -1,33 +1,16 @@
+import { keys } from "lodash"
 import React, { useState } from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Tab from "../components/tab"
 import Repertoire from "../../data/repertoire.yaml"
-
-interface TabProps {
-  isActive: boolean
-  title: string
-  onClick: (title: string) => void
-}
-
-interface MultiMovementWork {
-  name: string
-  movements: string[]
-}
-
-type Work = string | MultiMovementWork
-
-interface RepertoireItem {
-  composer: string
-  works: Work[]
-  note?: string
-}
 
 interface RepertoireSectionProps {
   item: RepertoireItem
 }
 
-const RepertoirePeriods = Object.keys(Repertoire)
+const RepertoirePeriods = keys(Repertoire)
 
 const Ohjelmisto: React.FC = () => {
   const [activeTab, setActiveTab] = useState(RepertoirePeriods[0])
@@ -57,12 +40,6 @@ const Ohjelmisto: React.FC = () => {
     </Layout>
   )
 }
-
-const Tab: React.FC<TabProps> = ({ isActive, title, onClick }) => (
-  <li className={isActive ? "is-active" : ""}>
-    <a onClick={() => onClick(title)}>{title}</a>
-  </li>
-)
 
 const RepertoireSection: React.FC<RepertoireSectionProps> = ({ item }) => (
   <div className="block">

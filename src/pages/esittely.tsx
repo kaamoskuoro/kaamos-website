@@ -2,8 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { sopranos, altos, tenors, basses } from "../../data/singers.yaml"
-import singers from "../images/singers.jpg"
+import Singers from "../../data/singers.yaml"
+import singersImage from "../images/singers.jpg"
+
+const { sopranos, altos, tenors, basses } = Singers
 
 const Esittely: React.FC = () => (
   <Layout>
@@ -25,7 +27,7 @@ const Esittely: React.FC = () => (
 
     <div className="columns">
       <div className="column is-two-thirds">
-        <img src={singers} />
+        <img src={singersImage} />
       </div>
     </div>
 
