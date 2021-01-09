@@ -20,7 +20,10 @@ const Navbar: React.FC = props => {
             <NavbarItem path="/johtaja/" title="Johtaja" />
             <NavbarItem path="/ohjelmisto/" title="Ohjelmisto" />
             <NavbarItem path="/konsertit/" title="Konsertit" />
-            <NavbarItem path="/tilaa-laulua/" title="Tilaa laulua" />
+            <NavbarItem path="/tilaa-laulua/" title="Tilaa laulua!" />
+          </div>
+          <div className="navbar-end">
+            <NavbarItem path="/english/" title="In English" />
           </div>
         </div>
       </div>
