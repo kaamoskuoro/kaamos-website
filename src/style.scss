@@ -1,5 +1,14 @@
+// Bulma customizations
 $primary: #3ca2d5;
 $link: $primary;
 $column-gap: 1.25rem;
 
 @import "~bulma/bulma.sass";
+
+a.brand-facebook {
+  color: #4267b2;
+}
+
+a.brand-spotify {
+  color: #1ed760;
+}
