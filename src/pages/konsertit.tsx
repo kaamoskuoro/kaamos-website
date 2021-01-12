@@ -5,13 +5,14 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tab from "../components/tab"
-import Concerts from "../../data/concerts.yaml"
+import Concerts from "../../data/concerts.json"
 import Concert from "../components/concert"
 
-const isUpcoming = (concert: Concert) =>
-  dayjs(concert.datetime).isAfter(dayjs())
+export type Concert = typeof Concerts[0]
 
-const getYear = (concert: Concert) => dayjs(concert.datetime).year()
+const isUpcoming = (concert: Concert) => dayjs(concert.begins).isAfter(dayjs())
+
+const getYear = (concert: Concert) => dayjs(concert.begins).year()
 
 const byNumberDesc = (a: string, b: string) => parseInt(b) - parseInt(a)
 
@@ -31,7 +32,7 @@ const Konsertit: React.FC = () => {
 
       {upcomingConcerts.length ? (
         upcomingConcerts.map(concert => (
-          <Concert key={concert.datetime} concert={concert} />
+          <Concert key={concert.begins} concert={concert} />
         ))
       ) : (
         <p className="block has-text-grey">
@@ -55,7 +56,7 @@ const Konsertit: React.FC = () => {
       </div>
 
       {pastConcertsByYear[activeYear].map(concert => (
-        <Concert key={concert.datetime} concert={concert} />
+        <Concert key={concert.begins} concert={concert} />
       ))}
     </Layout>
   )

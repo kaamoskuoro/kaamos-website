@@ -1,17 +1,6 @@
 declare module '*.jpg'
 declare module '*.png'
 
-declare module '*/concerts.yaml' {
-  const data: Concert[]
-  export default data
-}
-
-interface Concert {
-  title: string
-  datetime: string
-  description: string
-}
-
 declare module '*/news.yaml' {
   const data: NewsItem[]
   export default data
