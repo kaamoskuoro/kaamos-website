@@ -34,7 +34,9 @@ const Konsertit: React.FC = () => {
           <Concert key={concert.datetime} concert={concert} />
         ))
       ) : (
-        <p className="block">Tällä hetkellä ei ole tulevia konsertteja.</p>
+        <p className="block has-text-grey">
+          Tällä hetkellä ei ole tiedossa tulevia konsertteja.
+        </p>
       )}
 
       <h4 className="title is-4 mb-4">Menneet konsertit</h4>

@@ -4,7 +4,7 @@ import news from "../../data/news.yaml"
 
 const Sidebar: React.FC = () => (
   <aside>
-    <h3 className="subtitle is-3">Ajankohtaista</h3>
+    <h3 className="subtitle is-4">Ajankohtaista</h3>
 
     {news.map((data, index) => (
       <div key={index} className="block">
@@ -13,7 +13,7 @@ const Sidebar: React.FC = () => (
       </div>
     ))}
 
-    <h3 className="subtitle is-3">Yhteystiedot</h3>
+    <h3 className="subtitle is-4">Yhteystiedot</h3>
 
     <p className="block">
       Taiteellinen johtaja Visa Yrjölä

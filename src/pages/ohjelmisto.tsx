@@ -43,7 +43,9 @@ const Ohjelmisto: React.FC = () => {
 
 const RepertoireSection: React.FC<RepertoireSectionProps> = ({ item }) => (
   <div className="block">
-    <h6 className="title is-6 mb-1">{item.composer}</h6>
+    <p>
+      <strong>{item.composer}</strong>
+    </p>
 
     {item.works.map((work, index) => {
       if (typeof work === "object") {
