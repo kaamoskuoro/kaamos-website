@@ -1,6 +1,17 @@
 declare module '*.jpg'
 declare module '*.png'
 
+declare module '*/contact.yaml' {
+  const data: ContactItem[]
+  export default data
+}
+
+interface ContactItem {
+  name: string
+  email: string
+  phone: string
+}
+
 declare module '*/news.yaml' {
   const data: NewsItem[]
   export default data
