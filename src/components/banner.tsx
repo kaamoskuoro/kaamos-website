@@ -17,7 +17,7 @@ const Banner: React.FC = () => (
     <div className="column py-3">
       <div className="is-flex is-align-items-center is-justify-content-flex-end">
         <a href={HOLVI_URL} className="mr-2">
-          <FontAwesomeIcon icon={faStore} size="lg" /> Verkkokauppa
+          <FontAwesomeIcon icon={faStore} /> Verkkokauppa
         </a>
         <span className="icon is-large">
           <a href={FACEBOOK_URL} className="brand-facebook">
