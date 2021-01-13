@@ -13,7 +13,9 @@ interface RepertoireSectionProps {
 const RepertoirePeriods = keys(Repertoire)
 
 const Ohjelmisto: React.FC = () => {
-  const [activeTab, setActiveTab] = useState(RepertoirePeriods[0])
+  const [activeTabIndex, setActiveTabIndex] = useState(0)
+
+  const activePeriod = RepertoirePeriods[activeTabIndex]
 
   return (
     <Layout>
@@ -23,18 +25,19 @@ const Ohjelmisto: React.FC = () => {
 
       <div className="tabs">
         <ul>
-          {RepertoirePeriods.map(period => (
+          {RepertoirePeriods.map((period, index) => (
             <Tab
               key={period}
+              index={index}
+              isActive={activeTabIndex === index}
               title={period}
-              isActive={activeTab == period}
-              onClick={setActiveTab}
+              onClick={setActiveTabIndex}
             />
           ))}
         </ul>
       </div>
 
-      {Repertoire[activeTab].map((item: RepertoireItem) => (
+      {Repertoire[activePeriod].map(item => (
         <RepertoireSection key={item.composer} item={item} />
       ))}
     </Layout>

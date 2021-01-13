@@ -1,5 +1,5 @@
 import dayjs from "dayjs"
-import { groupBy, isInteger, keys, partition } from "lodash"
+import { partition, uniq } from "lodash"
 import React, { useState } from "react"
 
 import Layout from "../components/layout"
@@ -10,19 +10,42 @@ import Concert from "../components/concert"
 
 export type Concert = typeof Concerts[0]
 
+interface TabItem {
+  title: string
+  concerts: Concert[]
+}
+
 const isUpcoming = (concert: Concert) => dayjs(concert.begins).isAfter(dayjs())
 
 const getYear = (concert: Concert) => dayjs(concert.begins).year()
 
-const byNumberDesc = (a: string, b: string) => parseInt(b) - parseInt(a)
+const byNumDesc = (a: number, b: number) => b - a
 
-// Group concerts for display
+// Start grouping concerts for display
 const [upcomingConcerts, pastConcerts] = partition(Concerts, isUpcoming)
-const pastConcertsByYear = groupBy(pastConcerts, getYear)
-const pastConcertYears = keys(pastConcertsByYear).sort(byNumberDesc)
+const pastConcertYears = uniq(pastConcerts.map(getYear)).sort(byNumDesc)
+
+// Determine earliest year that still gets displayed in tabs
+const MAX_TAB_COUNT = 6
+const cutoffYear =
+  pastConcertYears.length > MAX_TAB_COUNT
+    ? pastConcertYears[MAX_TAB_COUNT - 1]
+    : undefined
+
+// Split past concerts into tabs, grouping the oldest under "cutoff tab" if needed
+const tabItems = pastConcertYears.reduce((acc, year) => {
+  if (!cutoffYear || year > cutoffYear) {
+    const concerts = pastConcerts.filter(c => getYear(c) === year).reverse()
+    return [...acc, { title: `${year}`, concerts }]
+  } else if (year === cutoffYear) {
+    const concerts = pastConcerts.filter(c => getYear(c) <= year).reverse()
+    return [...acc, { title: `${year} ja aiemmat`, concerts }]
+  }
+  return acc
+}, [] as TabItem[])
 
 const Konsertit: React.FC = () => {
-  const [activeYear, setActiveYear] = useState(pastConcertYears[0])
+  const [activeTabIndex, setActiveTabIndex] = useState(0)
 
   return (
     <Layout>
@@ -44,18 +67,19 @@ const Konsertit: React.FC = () => {
 
       <div className="tabs">
         <ul>
-          {pastConcertYears.map(year => (
+          {tabItems.map(({ title }, index) => (
             <Tab
-              key={year}
-              title={year}
-              isActive={year === activeYear}
-              onClick={setActiveYear}
+              key={title}
+              index={index}
+              isActive={index === activeTabIndex}
+              title={title}
+              onClick={setActiveTabIndex}
             />
           ))}
         </ul>
       </div>
 
-      {pastConcertsByYear[activeYear].map(concert => (
+      {tabItems[activeTabIndex].concerts.map(concert => (
         <Concert key={concert.begins} concert={concert} />
       ))}
     </Layout>

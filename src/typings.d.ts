@@ -23,7 +23,7 @@ interface Quote {
 }
 
 declare module '*/repertoire.yaml' {
-  const data: RepertoireItem[]
+  const data: { [key: string]: RepertoireItem[] }
   export default data
 }
 
