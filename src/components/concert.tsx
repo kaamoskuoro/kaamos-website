@@ -3,10 +3,8 @@ import localizedFormat from "dayjs/plugin/localizedFormat"
 import "dayjs/locale/fi"
 import React from "react"
 
-import { Concert as ConcertType } from "../pages/konsertit"
-
 interface Props {
-  concert: ConcertType
+  concert: Concert
 }
 
 // Set up locale as needed for Finnish date formatting

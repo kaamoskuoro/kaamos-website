@@ -5,10 +5,8 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tab from "../components/tab"
-import Concerts from "../../data/concerts.json"
+import Concerts from "../../data/concerts.yaml"
 import Concert from "../components/concert"
-
-export type Concert = typeof Concerts[0]
 
 interface TabItem {
   title: string

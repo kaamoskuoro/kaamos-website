@@ -1,6 +1,22 @@
 declare module '*.jpg'
 declare module '*.png'
 
+declare module '*/concerts.yaml' {
+  const data: Concert[]
+  export default data
+}
+
+interface Concert {
+  title: string
+  begins: string
+  venue: string
+  address: string
+  description: string
+  conductor: string
+  admission: string
+  ticketURL: string
+}
+
 declare module '*/contact.yaml' {
   const data: ContactItem[]
   export default data
