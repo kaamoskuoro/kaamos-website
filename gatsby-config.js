@@ -7,5 +7,18 @@ module.exports = {
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Kamarikuoro Kaamos`,
+        short_name: `Kaamos`,
+        lang: `fi`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#3ca2d5`,
+        display: `minimal-ui`,
+        icon: `src/images/gasp.svg`,
+      },
+    },
   ],
 }
