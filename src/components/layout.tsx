@@ -16,7 +16,7 @@ const Layout: React.FC = ({ children }) => (
         <Banner />
         <hr className="mt-0" />
         <div className="columns">
-          <div className="column">{children}</div>
+          <div className="column is-8">{children}</div>
           <div className="column is-4">
             <Sidebar />
           </div>
