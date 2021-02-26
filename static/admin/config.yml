@@ -90,7 +90,10 @@ collections:
                   name: begins,
                   label: Begins,
                   widget: datetime,
+                  default: "",
                   format: "YYYY-MM-DD HH:mm",
+                  date_format: "D MMMM YYYY",
+                  time_format: "HH:mm",
                 }
               - { name: venue, label: Venue, widget: string }
               - { name: address, label: Address, widget: string }
@@ -101,8 +104,8 @@ collections:
                   required: false,
                 }
               - {
-                  name: Conductor,
-                  label: conductor,
+                  name: conductor,
+                  label: Conductor,
                   widget: string,
                   required: false,
                 }
