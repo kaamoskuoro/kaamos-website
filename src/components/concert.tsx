@@ -25,9 +25,11 @@ const Concert: React.FC<Props> = ({ concert }) => (
       {concert.address}
     </p>
 
-    <p className="concert-description">{concert.description}</p>
+    {concert.description && (
+      <p className="concert-description">{concert.description}</p>
+    )}
 
-    <p>johtaa {concert.conductor}</p>
+    {concert.conductor && <p>johtaa {concert.conductor}</p>}
 
     {(concert.admission || concert.ticketURL) && (
       <p>
