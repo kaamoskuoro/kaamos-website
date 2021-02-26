@@ -42,9 +42,9 @@ collections:
               - { name: body, label: Body, widget: string, default: "””" }
               - { name: author, label: Author, widget: string }
               - { name: publication, label: Publication, widget: string }
-      - name: singers
-        label: Singers
-        file: content/singers.yml
+      - name: choir
+        label: Choir
+        file: content/choir.yml
         fields:
           - name: sopranos
             label: Sopranos

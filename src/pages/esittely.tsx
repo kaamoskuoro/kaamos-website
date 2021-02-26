@@ -2,10 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Singers from "../../content/singers.yml"
+import choirContent from "../../content/choir.yml"
 import singersImage from "../images/singers.jpg"
 
-const { sopranos, altos, tenors, basses } = Singers
+const { sopranos, altos, tenors, basses } = choirContent
 
 const Esittely: React.FC = () => (
   <Layout>

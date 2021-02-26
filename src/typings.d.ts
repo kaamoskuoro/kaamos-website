@@ -33,20 +33,7 @@ interface Quote {
   publication: string
 }
 
-interface MultiMovementWork {
-  name: string
-  movements: string[]
-}
-
-type Work = string | MultiMovementWork
-
-interface RepertoireItem {
-  composer: string
-  works: Work[]
-  note?: string
-}
-
-declare module '*/singers.yml' {
+declare module '*/choir.yml' {
   const data: {
     sopranos: string[],
     altos: string[],
