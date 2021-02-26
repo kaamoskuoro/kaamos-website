@@ -4,10 +4,31 @@ backend:
   branch: main
 media_folder: static/assets
 collections:
-  - name: lists
-    label: Lists
-    label_singular: List
+  - name: pages
+    label: Pages
+    label_singular: Page
     files:
+      - name: sidebar
+        label: Sidebar
+        file: content/sidebar.yml
+        fields:
+          - name: newsItems
+            label: News Items
+            label_singular: News Item
+            widget: list
+            summary: "{{title}}"
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: body, label: Body, widget: string }
+          - name: contactPersons
+            label: Contact Persons
+            label_singular: Contact Person
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: email, label: Email, widget: string }
+              - { name: phone, label: Phone, widget: string }
       - name: singers
         label: Singers
         file: content/singers.yml

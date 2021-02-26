@@ -1,7 +1,8 @@
 import React from "react"
 
-import contactItems from "../../data/contact.yaml"
-import newsItems from "../../data/news.yaml"
+import sidebarContent from "../../content/sidebar.yml"
+
+const { newsItems, contactPersons } = sidebarContent
 
 const Sidebar: React.FC = () => (
   <aside>
@@ -16,11 +17,12 @@ const Sidebar: React.FC = () => (
 
     <h3 className="subtitle is-4">Yhteystiedot</h3>
 
-    {contactItems.map((item, index) => (
+    {contactPersons.map((person, index) => (
       <p key={index} className="block">
-        {item.name}
+        {person.name}
         <br />
-        <a href={`mailto:${item.email}`}>{item.email}</a>, puh. {item.phone}
+        <a href={`mailto:${person.email}`}>{person.email}</a>, puh.{" "}
+        {person.phone}
       </p>
     ))}
   </aside>
