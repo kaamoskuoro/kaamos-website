@@ -39,7 +39,7 @@ collections:
             widget: list
             summary: "{{author}}, {{publication}}"
             fields:
-              - { name: body, label: Body, widget: string }
+              - { name: body, label: Body, widget: string, default: "””" }
               - { name: author, label: Author, widget: string }
               - { name: publication, label: Publication, widget: string }
       - name: singers
