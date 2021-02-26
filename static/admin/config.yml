@@ -10,6 +10,7 @@ collections:
   - name: pages
     label: Pages
     label_singular: Page
+    sortable_fields: []
     files:
       - name: sidebar
         label: Sidebar
