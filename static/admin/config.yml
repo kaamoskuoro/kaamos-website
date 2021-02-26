@@ -74,3 +74,47 @@ collections:
             summary: "{{name}}"
             minimize_collapsed: true
             field: { name: name, label: Name, widget: string }
+      - name: concerts
+        label: Concerts
+        file: content/concerts.yml
+        fields:
+          - name: concerts
+            label: Concerts
+            label_singular: Concert
+            widget: list
+            summary: "{{title}}"
+            minimize_collapsed: true
+            fields:
+              - { name: title, label: Title, widget: string }
+              - {
+                  name: begins,
+                  label: Begins,
+                  widget: datetime,
+                  format: "YYYY-MM-DD HH:mm",
+                }
+              - { name: venue, label: Venue, widget: string }
+              - { name: address, label: Address, widget: string }
+              - {
+                  name: description,
+                  label: Description,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: Conductor,
+                  label: conductor,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: admission,
+                  label: Admission,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: ticketURL,
+                  label: Ticket URL,
+                  widget: string,
+                  required: false,
+                }

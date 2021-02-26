@@ -5,7 +5,7 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tab from "../components/tab"
-import Concerts from "../../data/concerts.yaml"
+import concertsContent from "../../content/concerts.yml"
 import Concert from "../components/concert"
 
 interface TabItem {
@@ -20,7 +20,8 @@ const getYear = (concert: Concert) => dayjs(concert.begins).year()
 const byNumDesc = (a: number, b: number) => b - a
 
 // Start grouping concerts for display
-const [upcomingConcerts, pastConcerts] = partition(Concerts, isUpcoming)
+const { concerts } = concertsContent
+const [upcomingConcerts, pastConcerts] = partition(concerts, isUpcoming)
 const pastConcertYears = uniq(pastConcerts.map(getYear)).sort(byNumDesc)
 
 // Determine earliest year that still gets displayed in tabs
