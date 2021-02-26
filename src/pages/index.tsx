@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import choirImage from "../images/choir.jpg"
-import quotes from "../../data/quotes.yaml"
+import homeContent from "../../content/home.yml"
 
 const IndexPage: React.FC = () => (
   <Layout>
@@ -13,7 +13,7 @@ const IndexPage: React.FC = () => (
       <img src={choirImage} />
     </figure>
     <div className="content">
-      {quotes.map((quote: Quote, index: number) => (
+      {homeContent.quotes.map((quote: Quote, index: number) => (
         <div key={index} className="box">
           <p>{quote.body}</p>
           <p className="has-text-right">

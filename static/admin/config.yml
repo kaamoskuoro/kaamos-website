@@ -29,6 +29,19 @@ collections:
               - { name: name, label: Name, widget: string }
               - { name: email, label: Email, widget: string }
               - { name: phone, label: Phone, widget: string }
+      - name: home
+        label: Home
+        file: content/home.yml
+        fields:
+          - name: quotes
+            label: Quotes
+            label_singular: Quote
+            widget: list
+            summary: "{{author}}, {{publication}}"
+            fields:
+              - { name: body, label: Body, widget: string }
+              - { name: author, label: Author, widget: string }
+              - { name: publication, label: Publication, widget: string }
       - name: singers
         label: Singers
         file: content/singers.yml

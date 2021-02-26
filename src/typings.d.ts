@@ -36,8 +36,10 @@ interface NewsItem {
   body: string
 }
 
-declare module '*/quotes.yaml' {
-  const data: Quote[]
+declare module '*/home.yml' {
+  const data: {
+    quotes: Quote[]
+  }
   export default data
 }
 
