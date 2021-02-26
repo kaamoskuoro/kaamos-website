@@ -3,6 +3,9 @@ backend:
   repo: kaamoskuoro/kaamos-website
   branch: main
 media_folder: static/assets
+site_url: https://kaamos.netlify.com
+editor:
+  preview: false
 collections:
   - name: pages
     label: Pages
@@ -19,7 +22,7 @@ collections:
             summary: "{{title}}"
             fields:
               - { name: title, label: Title, widget: string }
-              - { name: body, label: Body, widget: string }
+              - { name: body, label: Body, widget: text }
           - name: contactPersons
             label: Contact Persons
             label_singular: Contact Person
@@ -37,9 +40,9 @@ collections:
             label: Quotes
             label_singular: Quote
             widget: list
-            summary: "{{author}}, {{publication}}"
+            summary: "{{body}} ({{author}}, {{publication}})"
             fields:
-              - { name: body, label: Body, widget: string, default: "””" }
+              - { name: body, label: Body, widget: text, default: "””" }
               - { name: author, label: Author, widget: string }
               - { name: publication, label: Publication, widget: string }
       - name: choir
@@ -100,7 +103,7 @@ collections:
               - {
                   name: description,
                   label: Description,
-                  widget: string,
+                  widget: text,
                   required: false,
                 }
               - {
