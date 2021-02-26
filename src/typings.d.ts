@@ -62,7 +62,7 @@ interface RepertoireItem {
   note?: string
 }
 
-declare module '*/singers.yaml' {
+declare module '*/singers.yml' {
   const data: {
     sopranos: string[],
     altos: string[],

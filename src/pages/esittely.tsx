@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Singers from "../../data/singers.yaml"
+import Singers from "../../content/singers.yml"
 import singersImage from "../images/singers.jpg"
 
 const { sopranos, altos, tenors, basses } = Singers
