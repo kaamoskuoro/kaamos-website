@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: kaamoskuoro/kaamos-website
+  branch: main
+media_folder: static/assets
+collections:
+  - name: lists
+    label: Lists
+    label_singular: List
+    files:
+      - name: singers
+        label: Singers
+        file: content/singers.yml
+        fields:
+          - name: sopranos
+            label: Sopranos
+            label_singular: Soprano
+            widget: list
+            summary: "{{name}}"
+            minimize_collapsed: true
+            field: { name: name, label: Name, widget: string }
+          - name: altos
+            label: Altos
+            label_singular: Alto
+            widget: list
+            summary: "{{name}}"
+            minimize_collapsed: true
+            field: { name: name, label: Name, widget: string }
+          - name: tenors
+            label: Tenors
+            label_singular: Tenor
+            widget: list
+            summary: "{{name}}"
+            minimize_collapsed: true
+            field: { name: name, label: Name, widget: string }
+          - name: basses
+            label: Basses
+            label_singular: Bass
+            widget: list
+            summary: "{{name}}"
+            minimize_collapsed: true
+            field: { name: name, label: Name, widget: string }

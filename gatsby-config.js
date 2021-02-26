@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
