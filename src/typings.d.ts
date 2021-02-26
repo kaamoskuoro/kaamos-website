@@ -49,11 +49,6 @@ interface Quote {
   publication: string
 }
 
-declare module '*/repertoire.yaml' {
-  const data: { [key: string]: RepertoireItem[] }
-  export default data
-}
-
 interface MultiMovementWork {
   name: string
   movements: string[]
