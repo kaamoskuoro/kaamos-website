@@ -13,7 +13,7 @@ collections:
     sortable_fields: []
     files:
       - name: sidebar
-        label: Sidebar
+        label: Sidebar (Ajankohtaista + Yhteystiedot)
         file: content/sidebar.yml
         fields:
           - name: newsItems
@@ -34,7 +34,7 @@ collections:
               - { name: email, label: Email, widget: string }
               - { name: phone, label: Phone, widget: string }
       - name: home
-        label: Home
+        label: Home (Etusivu)
         file: content/home.yml
         fields:
           - name: quotes
@@ -47,7 +47,7 @@ collections:
               - { name: author, label: Author, widget: string }
               - { name: publication, label: Publication, widget: string }
       - name: choir
-        label: Choir
+        label: Choir (Esittely)
         file: content/choir.yml
         fields:
           - name: sopranos
@@ -79,7 +79,7 @@ collections:
             minimize_collapsed: true
             field: { name: name, label: Name, widget: string }
       - name: concerts
-        label: Concerts
+        label: Concerts (Konsertit)
         file: content/concerts.yml
         fields:
           - name: concerts
