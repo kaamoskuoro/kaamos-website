@@ -5,10 +5,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-fontawesome-css`,
-    `gatsby-plugin-netlify`,
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -22,5 +18,14 @@ module.exports = {
         icon: `src/images/gasp.svg`,
       },
     },
+    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        htmlTitle: `Kaamos CMS`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ],
 }
