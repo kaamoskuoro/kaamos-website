@@ -6,13 +6,12 @@ site_url: https://kaamos.netlify.com
 editor:
   preview: false
 collections:
-  - name: pages
-    label: Pages
-    label_singular: Page
+  - name: kaamos
+    label: Kaamos
     sortable_fields: []
     files:
       - name: sidebar
-        label: Sidebar (Ajankohtaista + Yhteystiedot)
+        label: Ajankohtaista + Yhteystiedot
         file: content/sidebar.yml
         fields:
           - name: newsItems
@@ -33,7 +32,7 @@ collections:
               - { name: email, label: Email, widget: string }
               - { name: phone, label: Phone, widget: string }
       - name: home
-        label: Home (Etusivu)
+        label: Etusivu
         file: content/home.yml
         fields:
           - name: quotes
@@ -46,7 +45,7 @@ collections:
               - { name: author, label: Author, widget: string }
               - { name: publication, label: Publication, widget: string }
       - name: choir
-        label: Choir (Esittely)
+        label: Esittely
         file: content/choir.yml
         fields:
           - name: sopranos
@@ -78,7 +77,7 @@ collections:
             minimize_collapsed: true
             field: { name: name, label: Name, widget: string }
       - name: concerts
-        label: Concerts (Konsertit)
+        label: Konsertit
         file: content/concerts.yml
         fields:
           - name: concerts
