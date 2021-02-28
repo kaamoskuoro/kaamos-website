@@ -1,8 +1,9 @@
 import React from "react"
 
 import "../style.scss"
-import Navbar from "./navbar"
 import Banner from "./banner"
+import Footer from "./footer"
+import Navbar from "./navbar"
 import Sidebar from "./sidebar"
 
 const Layout: React.FC = ({ children }) => (
@@ -23,6 +24,10 @@ const Layout: React.FC = ({ children }) => (
         </div>
       </div>
     </main>
+
+    <footer className="footer">
+      <Footer />
+    </footer>
   </>
 )
 
