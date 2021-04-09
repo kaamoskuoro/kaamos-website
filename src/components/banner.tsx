@@ -27,22 +27,22 @@ const Banner: React.FC = () => (
           <FontAwesomeIcon icon={faStore} /> Verkkokauppa
         </a>
         <span className="icon is-large">
-          <a href={YOUTUBE_URL} className="brand-youtube">
+          <a href={YOUTUBE_URL} target="_blank" className="brand-youtube">
             <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </span>
         <span className="icon is-large">
-          <a href={INSTAGRAM_URL} className="brand-instagram">
+          <a href={INSTAGRAM_URL} target="_blank" className="brand-instagram">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </span>
         <span className="icon is-large">
-          <a href={FACEBOOK_URL} className="brand-facebook">
+          <a href={FACEBOOK_URL} target="_blank" className="brand-facebook">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
         </span>
         <span className="icon is-large">
-          <a href={SPOTIFY_URL} className="brand-spotify">
+          <a href={SPOTIFY_URL} target="_blank" className="brand-spotify">
             <FontAwesomeIcon icon={faSpotify} size="2x" />
           </a>
         </span>
