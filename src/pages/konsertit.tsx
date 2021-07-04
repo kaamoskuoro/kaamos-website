@@ -50,37 +50,41 @@ const Konsertit: React.FC = () => {
     <Layout>
       <SEO title="Konsertit" />
 
-      <h3 className="title is-3">Konsertit</h3>
+      <div className="columns">
+        <div className="column is-8">
+          <h3 className="title is-3">Konsertit</h3>
 
-      {upcomingConcerts.length ? (
-        upcomingConcerts.map(concert => (
-          <Concert key={concert.begins} concert={concert} />
-        ))
-      ) : (
-        <p className="block has-text-grey">
-          Tällä hetkellä ei ole tiedossa tulevia konsertteja.
-        </p>
-      )}
+          {upcomingConcerts.length ? (
+            upcomingConcerts.map(concert => (
+              <Concert key={concert.begins} concert={concert} />
+            ))
+          ) : (
+            <p className="block has-text-grey">
+              Tällä hetkellä ei ole tiedossa tulevia konsertteja.
+            </p>
+          )}
 
-      <h4 className="title is-4 mb-4">Menneet konsertit</h4>
+          <h4 className="title is-4 mb-4">Menneet konsertit</h4>
 
-      <div className="tabs">
-        <ul>
-          {tabItems.map(({ title }, index) => (
-            <Tab
-              key={title}
-              index={index}
-              isActive={index === activeTabIndex}
-              title={title}
-              onClick={setActiveTabIndex}
-            />
+          <div className="tabs">
+            <ul>
+              {tabItems.map(({ title }, index) => (
+                <Tab
+                  key={title}
+                  index={index}
+                  isActive={index === activeTabIndex}
+                  title={title}
+                  onClick={setActiveTabIndex}
+                />
+              ))}
+            </ul>
+          </div>
+
+          {tabItems[activeTabIndex].concerts.map(concert => (
+            <Concert key={concert.begins} concert={concert} />
           ))}
-        </ul>
+        </div>
       </div>
-
-      {tabItems[activeTabIndex].concerts.map(concert => (
-        <Concert key={concert.begins} concert={concert} />
-      ))}
     </Layout>
   )
 }
