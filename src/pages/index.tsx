@@ -21,6 +21,11 @@ const IndexPage: React.FC = () => (
           <div key={index} className="block">
             <h4 className="title is-4 mb-3">{item.title}</h4>
             <p>{item.body}</p>
+            {item.url && (
+              <p className="mt-1">
+                <a href={item.url}>Lue lisää</a>
+              </p>
+            )}
           </div>
         ))}
       </div>

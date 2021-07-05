@@ -12,6 +12,7 @@ declare module '*/home.yml' {
 interface NewsItem {
   title: string
   body: string
+  url: string
 }
 
 interface Quote {
