@@ -1,30 +1,17 @@
 declare module '*.jpg'
 declare module '*.png'
 
-declare module '*/sidebar.yml' {
+declare module '*/home.yml' {
   const data: {
     newsItems: NewsItem[],
-    contactPersons: ContactPerson[],
+    quotes: Quote[]
   }
   export default data
-}
-
-interface ContactPerson {
-  name: string
-  email: string
-  phone: string
 }
 
 interface NewsItem {
   title: string
   body: string
-}
-
-declare module '*/home.yml' {
-  const data: {
-    quotes: Quote[]
-  }
-  export default data
 }
 
 interface Quote {
@@ -59,4 +46,17 @@ interface Concert {
   conductor: string
   admission: string
   ticketURL: string
+}
+
+declare module '*/contact.yml' {
+  const data: {
+    contactPersons: ContactPerson[],
+  }
+  export default data
+}
+
+interface ContactPerson {
+  name: string
+  email: string
+  phone: string
 }

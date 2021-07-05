@@ -10,9 +10,9 @@ collections:
     label: Kaamos
     sortable_fields: []
     files:
-      - name: sidebar
-        label: Ajankohtaista + Yhteystiedot
-        file: content/sidebar.yml
+      - name: home
+        label: Etusivu
+        file: content/home.yml
         fields:
           - name: newsItems
             label: News Items
@@ -22,19 +22,6 @@ collections:
             fields:
               - { name: title, label: Title, widget: string }
               - { name: body, label: Body, widget: text }
-          - name: contactPersons
-            label: Contact Persons
-            label_singular: Contact Person
-            widget: list
-            summary: "{{name}}"
-            fields:
-              - { name: name, label: Name, widget: string }
-              - { name: email, label: Email, widget: string }
-              - { name: phone, label: Phone, widget: string }
-      - name: home
-        label: Etusivu
-        file: content/home.yml
-        fields:
           - name: quotes
             label: Quotes
             label_singular: Quote
@@ -123,3 +110,16 @@ collections:
                   widget: string,
                   required: false,
                 }
+      - name: contact
+        label: Yhteystiedot
+        file: content/contact.yml
+        fields:
+          - name: contactPersons
+            label: Contact Persons
+            label_singular: Contact Person
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: email, label: Email, widget: string }
+              - { name: phone, label: Phone, widget: string }
