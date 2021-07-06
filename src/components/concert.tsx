@@ -16,11 +16,13 @@ dayjs.extend(localizedFormat)
 const Concert: React.FC<Props> = ({ concert }) => (
   <div className="block content">
     <h5 className="title is-5 mb-2">
-      {concert.title}
-      {concert.facebookURL && (
+      {concert.facebookURL ? (
         <a href={concert.facebookURL}>
-          <FontAwesomeIcon icon={faFacebookSquare} size="1x" className="ml-2" />
+          {concert.title}
+          <FontAwesomeIcon icon={faFacebookSquare} size="sm" className="ml-2" />
         </a>
+      ) : (
+        concert.title
       )}
     </h5>
 
