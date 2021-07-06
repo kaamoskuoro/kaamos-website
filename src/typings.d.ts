@@ -47,6 +47,8 @@ interface Concert {
   conductor: string
   admission: string
   ticketURL: string
+  facebookURL: string
+  readMoreURL: string
 }
 
 declare module '*/contact.yml' {

@@ -111,6 +111,18 @@ collections:
                   widget: string,
                   required: false,
                 }
+              - {
+                  name: facebookURL,
+                  label: Facebook URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: readMoreURL,
+                  label: Read More URL,
+                  widget: string,
+                  required: false,
+                }
       - name: contact
         label: Yhteystiedot
         file: content/contact.yml

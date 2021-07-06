@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons"
 import dayjs from "dayjs"
 import localizedFormat from "dayjs/plugin/localizedFormat"
 import "dayjs/locale/fi"
@@ -13,7 +15,14 @@ dayjs.extend(localizedFormat)
 
 const Concert: React.FC<Props> = ({ concert }) => (
   <div className="block content">
-    <h5 className="title is-5 mb-2">{concert.title}</h5>
+    <h5 className="title is-5 mb-2">
+      {concert.title}
+      {concert.facebookURL && (
+        <a href={concert.facebookURL}>
+          <FontAwesomeIcon icon={faFacebookSquare} size="1x" className="ml-2" />
+        </a>
+      )}
+    </h5>
 
     <p>
       {dayjs(concert.begins).format("dddd, LL")}
@@ -25,11 +34,17 @@ const Concert: React.FC<Props> = ({ concert }) => (
       {concert.address}
     </p>
 
+    {concert.conductor && <p>johtaa {concert.conductor}</p>}
+
     {concert.description && (
       <p className="concert-description">{concert.description}</p>
     )}
 
-    {concert.conductor && <p>johtaa {concert.conductor}</p>}
+    {concert.readMoreURL && (
+      <p>
+        <a href={concert.readMoreURL}>Lue lisää</a>
+      </p>
+    )}
 
     {(concert.admission || concert.ticketURL) && (
       <p>
