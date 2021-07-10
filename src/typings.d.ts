@@ -40,7 +40,6 @@ declare module '*/concerts.yml' {
 
 interface Concert {
   title: string
-  banner: string
   begins: string
   venue: string
   address: string
