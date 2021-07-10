@@ -425,7 +425,8 @@ concerts:
     venue: Meilahden kirkko
     address: Pihlajatie 16, Helsinki
     title: Joulukonsertti
-    description: Ohjelmistossa muun muassa Benjamin Brittenin Ceremony of Carols,
+    description:
+      Ohjelmistossa muun muassa Benjamin Brittenin Ceremony of Carols,
       harpistina Kirsi Kiviharju
   - ticketURL: http://www.tiketti.fi/Kamarikuoro-Kaamos-Satiinikuita-Balderin-sali-Helsinki-lippuja/31162
     readMoreURL: ""
@@ -454,7 +455,7 @@ concerts:
       esittää Schützin käyttämiin teksteihin sävelletyt teokset Yui Katadalta,
       Juhani Komulaiselta, Paola Livorsilta, Lauri Mäntysaarelta ja Tapio
       Tuomelalta. Esitämme teokset arabiaksi, englanniksi, hepreaksi, japaniksi,
-      kreikaksi, latinaksi, saksaksi ja suomeksi. 
+      kreikaksi, latinaksi, saksaksi ja suomeksi.
 
 
       Konsertin johtaa Dani Juris. Tervetuloa!
@@ -501,7 +502,7 @@ concerts:
       Kaamos esittää "Matkalla" -nimisessä konsertissaan hengellisiin teksteihin
       sävellettyjä teoksia, joissa liikutaan pimeydestä valoon, surusta iloon ja
       kuolemasta ikuiseen elämään. Säveltäjinä muun muassa J. S. Bach, Maurice
-      Duruflé, James MacMillan sekä Arvo Pärt. 
+      Duruflé, James MacMillan sekä Arvo Pärt.
 
       Juia Tamminen, urut
   - ticketURL: ""
@@ -555,16 +556,16 @@ concerts:
       Ohjelma:
 
 
-      Einojuhani Rautavaara: Missa a cappella 
+      Einojuhani Rautavaara: Missa a cappella
 
       Gabriel Fauré: Cantique de Jean Racine
 
       Einojuhani Rautavaara: Herran rukous
 
-      C.H.H. Parry: Songs of Farewell 
+      C.H.H. Parry: Songs of Farewell
 
 
-      Liput 20 € / 10 € kuorolaisilta ja tiketti.fi 
+      Liput 20 € / 10 € kuorolaisilta ja tiketti.fi
 
 
 
@@ -651,7 +652,7 @@ concerts:
       säveltäjänimiä, ja myös hänen värikästä, maalailevaa ja räiskyvääkin
       sävelkieltään kuullaan kahden kappaleen verran. Tunnetummista
       liettualaisista säveltäjistä mukaan mahtuu myös kappale svengin mestarin,
-      Vytautas Miškinisin kynästä. 
+      Vytautas Miškinisin kynästä.
 
 
       Tervetuloa juhlimaan kanssamme!
@@ -683,7 +684,7 @@ concerts:
       säveltäjänimiä, ja myös hänen värikästä, maalailevaa ja räiskyvääkin
       sävelkieltään kuullaan kahden kappaleen verran. Tunnetummista
       liettualaisista säveltäjistä mukaan mahtuu myös kappale svengin mestarin,
-      Vytautas Miškinisin kynästä. 
+      Vytautas Miškinisin kynästä.
 
 
       Tervetuloa juhlimaan kanssamme!
@@ -715,7 +716,7 @@ concerts:
       säveltäjänimiä, ja myös hänen värikästä, maalailevaa ja räiskyvääkin
       sävelkieltään kuullaan kahden kappaleen verran. Tunnetummista
       liettualaisista säveltäjistä mukaan mahtuu myös kappale svengin mestarin,
-      Vytautas Miškinisin kynästä. 
+      Vytautas Miškinisin kynästä.
 
 
       Tervetuloa juhlimaan kanssamme!
@@ -773,7 +774,7 @@ concerts:
       Talviyö-joulukonsertti saa nimensä Juhani Komulaisen säveltämästä Vinternatten-teoksesta, joka on sävelletty Kamarikuoro Kaamokselle. Tämä meille hyvin rakas teos on muodostunut moderniksi klassikoksi myös lukuisien muiden kuorojen ohjelmistossa.
 
 
-      Konsertin kruunaa kantaesitys Mikko Sidoroffin tilausteoksesta ”Joulu Krestyssä” Eino Leinon runoon. Runossa Leino kuvaa joulua pietarilaiseen Krestyn vankilaan 1910-luvulla teljettyjen suomalaisten polittisten vankien näkökulmasta. Sidoroffilta esitetään perinteeksi muodostuneeseen tyyliin myös kaunis ”Pyhä yö” Yrjö Jylhän talvisodassa kirjoittamaan runoon. 
+      Konsertin kruunaa kantaesitys Mikko Sidoroffin tilausteoksesta ”Joulu Krestyssä” Eino Leinon runoon. Runossa Leino kuvaa joulua pietarilaiseen Krestyn vankilaan 1910-luvulla teljettyjen suomalaisten polittisten vankien näkökulmasta. Sidoroffilta esitetään perinteeksi muodostuneeseen tyyliin myös kaunis ”Pyhä yö” Yrjö Jylhän talvisodassa kirjoittamaan runoon.
 
 
       Tutummista joululauluista konsertissa kuullaan muun muassa Otto Kotilaisen ”Kun joulu on” sekä Franz Gruberin ”Jouluyö, juhlayö”.
@@ -822,7 +823,7 @@ concerts:
 
       Vuonna 2013 perustettu Ahjo Ensemble esittää tasokasta kuoromusiikkia ilman ohjelmistollisia rajoitteita. Laulajisto koostuu kunnianhimoisista, kuorolaulua pitkään harrastaneista laulajista. Ahjo on tullut tutuksi ja saanut tunnustusta kansainvälisillä festivaaleilla ja yhteistuotannoissa.
 
-      www.ahjoensemble.fi 
+      www.ahjoensemble.fi
 
 
       Vuonna 2007 perustettu Kamarikuoro Kaamos on vakiinnuttanut asemansa yhtenä Suomen korkeatasoisimmista kamarikuoroista, joka konsertoi ja kilpailee säännöllisesti kotimaassa ja ulkomailla. Kesällä 2011 Kamarikuoro Kaamos palkittiin Tampereen Sävelen kuorokatselmuksessa parhaana kuorona Grand Prix -palkinnolla.
@@ -838,14 +839,14 @@ concerts:
     address: Kanavakatu 1, Helsinki
     title: VIGILIA - MISSA BREVIS / Ahjo Ensemble - Kamarikuoro Kaamos
     description: >-
-      Ahjo Ensemble ja Kamarikuoro Kaamos, johtaa Paavo Hyökki 
+      Ahjo Ensemble ja Kamarikuoro Kaamos, johtaa Paavo Hyökki
 
-      Säde Bartling, altto 
+      Säde Bartling, altto
 
       Jussi Salonen, tenori
 
 
-      Erik Bosio - Jussi Chydenius - Morten Vinther: Missa Brevis 
+      Erik Bosio - Jussi Chydenius - Morten Vinther: Missa Brevis
 
       Sergei Rahmaninov: Vigilia
 
@@ -868,12 +869,12 @@ concerts:
       * * *
 
 
-      Vuonna 2013 perustettu Ahjo Ensemble esittää tasokasta kuoromusiikkia ilman ohjelmistollisia rajoitteita. Laulajisto koostuu kunnianhimoisista, kuorolaulua pitkään harrastaneista laulajista. Ahjo on tullut tutuksi ja saanut tunnustusta kansainvälisillä festivaaleilla ja yhteistuotannoissa. 
+      Vuonna 2013 perustettu Ahjo Ensemble esittää tasokasta kuoromusiikkia ilman ohjelmistollisia rajoitteita. Laulajisto koostuu kunnianhimoisista, kuorolaulua pitkään harrastaneista laulajista. Ahjo on tullut tutuksi ja saanut tunnustusta kansainvälisillä festivaaleilla ja yhteistuotannoissa.
 
       www.ahjoensemble.fi
 
 
-      Vuonna 2007 perustettu Kamarikuoro Kaamos on vakiinnuttanut asemansa yhtenä Suomen korkeatasoisimmista kamarikuoroista, joka konsertoi ja kilpailee säännöllisesti kotimaassa ja ulkomailla. Kesällä 2011 Kamarikuoro Kaamos palkittiin Tampereen Sävelen kuorokatselmuksessa parhaana kuorona Grand Prix -palkinnolla. 
+      Vuonna 2007 perustettu Kamarikuoro Kaamos on vakiinnuttanut asemansa yhtenä Suomen korkeatasoisimmista kamarikuoroista, joka konsertoi ja kilpailee säännöllisesti kotimaassa ja ulkomailla. Kesällä 2011 Kamarikuoro Kaamos palkittiin Tampereen Sävelen kuorokatselmuksessa parhaana kuorona Grand Prix -palkinnolla.
 
       www.kamarikuorokaamos.fi
   - ticketURL: https://holvi.com/shop/kamarikuorokaamos/
@@ -918,7 +919,7 @@ concerts:
 
       Vuonna 2013 perustettu Ahjo Ensemble esittää tasokasta kuoromusiikkia ilman ohjelmistollisia rajoitteita. Laulajisto koostuu kunnianhimoisista, kuorolaulua pitkään harrastaneista laulajista. Ahjo on tullut tutuksi ja saanut tunnustusta kansainvälisillä festivaaleilla ja yhteistuotannoissa.
 
-      www.ahjoensemble.fi 
+      www.ahjoensemble.fi
 
 
       Vuonna 2007 perustettu Kamarikuoro Kaamos on vakiinnuttanut asemansa yhtenä Suomen korkeatasoisimmista kamarikuoroista, joka konsertoi ja kilpailee säännöllisesti kotimaassa ja ulkomailla. Kesällä 2011 Kamarikuoro Kaamos palkittiin Tampereen Sävelen kuorokatselmuksessa parhaana kuorona Grand Prix -palkinnolla.
@@ -977,15 +978,15 @@ concerts:
 
 
       Konserttiohjelma:
-       
-      Heinrich Schütz (1585–1672): 
+
+      Heinrich Schütz (1585–1672):
 
       Unser Wandel ist im Himmel
 
       Ich bin ein rechter Weinstock
 
 
-      Johannes Brahms (1833–1897): 
+      Johannes Brahms (1833–1897):
 
       Vergangen ist mir Glück und Heil (Op. 62 no. 7)
 
@@ -996,34 +997,34 @@ concerts:
 
       Madrigali No. 2. Quando son più lontan
 
-      Madrigali No. 6. Se per havervi, oime 
+      Madrigali No. 6. Se per havervi, oime
 
 
-      Einojuhani Rautavaara (1928–2016): 
+      Einojuhani Rautavaara (1928–2016):
 
       Credo (teoksesta Missa A cappella)
 
 
-      Toivo Kuula (1883–1918): 
+      Toivo Kuula (1883–1918):
 
-      Rukous 
+      Rukous
 
 
-      Maurice Ravel (1875–1937): 
+      Maurice Ravel (1875–1937):
 
       Trois chansons
 
 
       Hubert Parry (1848–1918): Songs of Farewell
 
-      1. My Soul, There Is a Country 
+      1. My Soul, There Is a Country
 
-      2. I Know My Soul Hath Power 
+      2. I Know My Soul Hath Power
 
       3. Never Weather-Beaten sail
 
 
-      Ralph Vaughan Williams (1872–1958): 
+      Ralph Vaughan Williams (1872–1958):
 
       Rest
   - ticketURL: https://holvi.com/shop/kamarikuorokaamos/
@@ -1057,27 +1058,27 @@ concerts:
       tunnelmasta!
 
 
-      Arvo Pärt: Nunc dimittis 
+      Arvo Pärt: Nunc dimittis
 
-      Otto Kotilainen (sov. Ilkka Kuusisto): Kun joulu on 
+      Otto Kotilainen (sov. Ilkka Kuusisto): Kun joulu on
 
-      P.J. Hannikainen (sov. Ilkka Kuusisto): Tuikkikaa, oi joulun tähtöset 
+      P.J. Hannikainen (sov. Ilkka Kuusisto): Tuikkikaa, oi joulun tähtöset
 
       Alex Freeman: Coventry Carol
 
       Karl Collan (sov. Säde Bartling): Sylvian joululaulu
 
-      Trad. (sov. Gottfried Wolters): Maria durch ein Dornwald ging 
+      Trad. (sov. Gottfried Wolters): Maria durch ein Dornwald ging
 
-      Anton Bruckner: Virga Jesse floruit 
+      Anton Bruckner: Virga Jesse floruit
 
-      Jean Sibelius: En etsi valtaa, loistoa 
+      Jean Sibelius: En etsi valtaa, loistoa
 
-      Gustav Holst (sov. Lily Solomonov): In the Bleak Midwinter 
+      Gustav Holst (sov. Lily Solomonov): In the Bleak Midwinter
 
       Mikko Sidoroff: Joulu Krestyssä
 
-      Mikko Sidoroff: Pyhä yö 
+      Mikko Sidoroff: Pyhä yö
 
       Juhani Komulainen: Vinternatten
 
