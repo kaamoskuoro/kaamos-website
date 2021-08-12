@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 media_folder: static/assets
-site_url: https://kaamos.netlify.com
+site_url: https://www.kamarikuorokaamos.fi
 editor:
   preview: false
 collections:

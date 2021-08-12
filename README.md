@@ -13,7 +13,7 @@ All **dynamic content**, such as news or concerts, lives in various files inside
 Committing to the `main` branch of this repo will automatically deploy the site to Netlify. Deploys can be monitored (and manually triggered) on Netlify’s [Deploys][netlify-deploys] page.
 
 [kaamos-website]: https://www.kamarikuorokaamos.fi
-[kaamos-cms]: https://kaamos.netlify.app/admin/
+[kaamos-cms]: https://www.kamarikuorokaamos.fi/admin/
 [pages-source]: https://github.com/kaamoskuoro/kaamos-website/tree/main/src/pages
 [netlify-identity]: https://app.netlify.com/sites/kaamos/identity
 [netlify-deploys]: https://app.netlify.com/sites/kaamos/deploys
