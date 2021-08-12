@@ -4,9 +4,9 @@ This repository contains the source code for the [Kamarikuoro Kaamos website][ka
 
 ## Editing Content
 
-All dynamic content, such as news or concerts, lives in various files inside this repo's `content` directory. The easiest and safest way to edit this content is via the [Kaamos CMS panel][kaamos-cms], which is powered by Netlify CMS. Once saved, a new build is kicked off and the changes are live within a couple of minutes.
+All **dynamic content**, such as news or concerts, lives in various files inside this repo's `content` directory. The easiest and safest way to edit this content is via the [Kaamos CMS panel][kaamos-cms], which is powered by Netlify CMS. Once saved, a new build is kicked off and the changes are live within a couple of minutes.
 
-Longer-lived content, which typically contains multiple paragraphs or styling, can be found in the [source files][pages-source]. These files can be edited either on GitHub or by cloning this repo and committing the changes.
+**Static content**, which is typically longer-lived and contains multiple paragraphs or styling, can be found in the [source files][pages-source]. To update such content, edit its file either directly on GitHub, or clone this repo and commit your changes. Be sure not to break any markup 🙂
 
 ## Deployment
 
