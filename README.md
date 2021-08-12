@@ -1,12 +1,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e0b6b6d4-8665-4f62-b760-37f781e4749b/deploy-status)](https://app.netlify.com/sites/kaamos/deploys)
 
-This repo hosts the source code for the [Kamarikuoro Kaamos website][kaamos-website], hosted on Netlify.
+This repository contains the source code for the [Kamarikuoro Kaamos website][kaamos-website], hosted on Netlify.
 
 ## Editing Content
 
-All dynamic content, such as news or concerts, lives in various files inside this repo's `content` directory. The easiest and safest way to edit them is via the [Kaamos CMS panel][kaamos-cms], which is powered by Netlify CMS. Once saved, a new build is kicked off and the changes are live within a couple of minutes.
+All dynamic content, such as news or concerts, lives in various files inside this repo's `content` directory. The easiest and safest way to edit this content is via the [Kaamos CMS panel][kaamos-cms], which is powered by Netlify CMS. Once saved, a new build is kicked off and the changes are live within a couple of minutes.
 
-Longer-lived content containing multiple paragraphs or styling typically lives in the [source files][pages-source], and can be edited either on GitHub or by cloning this repo and committing the changes.
+Longer-lived content, which typically contains multiple paragraphs or styling, can be found in the [source files][pages-source]. These files can be edited either on GitHub or by cloning this repo and committing the changes.
 
 ## Deployment
 
