@@ -425,8 +425,7 @@ concerts:
     venue: Meilahden kirkko
     address: Pihlajatie 16, Helsinki
     title: Joulukonsertti
-    description:
-      Ohjelmistossa muun muassa Benjamin Brittenin Ceremony of Carols,
+    description: Ohjelmistossa muun muassa Benjamin Brittenin Ceremony of Carols,
       harpistina Kirsi Kiviharju
   - ticketURL: http://www.tiketti.fi/Kamarikuoro-Kaamos-Satiinikuita-Balderin-sali-Helsinki-lippuja/31162
     readMoreURL: ""
@@ -1106,3 +1105,18 @@ concerts:
 
 
       Suosittelemme yleisölle konsertissa kasvomaskin käyttöä. Konserttiin saa tulla vain terveenä, ja sairastapauksissa lipun voi perua vielä tuntia ennen konsertin alkua sähköpostitse kamarikuorokaamos@gmail.com.
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/morgensang-kansanlauluja-26102021/
+    conductor: Visa Yrjölä
+    admission: 20/15/10
+    facebookURL: https://www.facebook.com/events/769865447133141
+    begins: 2021-10-26 19:00
+    venue: Ritarihuone
+    address: Ritarikatu 1, Helsinki
+    title: Morgensang - Kansanlauluja
+    description: Kansanmusiikki on inspiroinut säveltäjiä kautta aikojen.
+      Morgensang-konsertissa Kamarikuoro Kaamos esittää värikkään ja laajan
+      tunneskaalan käsittävän kattauksen kansanlauluihin perustuvia teoksia niin
+      Suomesta kuin ympäri Eurooppaa. Konsertin laajimmat teokset ovat Francis
+      Poulencin "8 Chansons françaises" ja Béla Bartókin unkarilaisten
+      kansanlaulujen sarja. Konserttimme nimikkoteos "Morgensang" on Alex
+      Freemanin tuore tilaussävellys kauniiseen norjalaiseen lauluun perustuen.
