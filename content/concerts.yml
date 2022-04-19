@@ -1129,3 +1129,10 @@ concerts:
     address: Lönnrotinkatu 6, Helsinki
     title: Talviyö - Joulukonsertti
     description: Tervetuloa perinteiseen joulukonserttiimme Vanhaan kirkkoon!
+  - begins: 2022-05-14 18:00
+    title: O Miraculous May! Alex Freeman 50 vuotta
+    venue: Hämeenlinnan kirkko
+    address: Kirkkorinne, Hämeenlinna
+    conductor: Visa Yrjölä
+    admission: 20/15/10
+    ticketURL: Käsiohjelmia myydään ovella ennen konsertin alkua.
