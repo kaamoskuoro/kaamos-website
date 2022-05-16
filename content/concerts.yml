@@ -1145,11 +1145,26 @@ concerts:
     admission: 20/15/10
     ticketURL: ""
     description: Käsiohjelmia myydään ovella ennen konsertin alkua.
-  - begins: 2022-06-02 19:00
-    title: O Miraculous May! Alex Freeman 50 vuotta
-    venue: Helsingin konservatorio
-    address: Ruoholahdentori 6, Helsinki
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/o-miraculous-may/
     conductor: Visa Yrjölä
     admission: 20/15/10
-    ticketURL: ""
-    description: Liput tulossa pian myyntiin Holvi-kauppaan!
+    facebookURL: https://www.facebook.com/events/411221424174366
+    begins: 2022-06-02 19:00
+    venue: Helsingin konservatorio
+    address: Ruoholahdentori 6, Helsinki
+    title: O Miraculous May! Alex Freeman 50 vuotta
+    description: >-
+      O Miraculous May! -konsertissa kuullaan neljä tänä keväänä 50 vuotta
+      täyttävän Alex Freemanin kuoroteosta: Kamarikuoro Kaamoksen tilaama
+      Morgensang (2021), Cathedral of Spring (2019), Calle sin nombre (2019) ja
+      Neljä laulua Aaro Hellaakosken runoihin (2004). Freemanin teosten
+      temaattisina pareina esitetään neljä päivänsankarin kanssa yhteistyössä
+      valittua kestohittiä: Toivo Kuulan Auringon noustessa, Einojuhani
+      Rautavaaran Halavan himmeän alla, Jean Sibeliuksen Sydämeni laulu sekä
+      Jacques Arcadeltin Il bianco e dolce cigno.
+
+
+      Konsertti kuuluu Helsingin Konservatorion konserttisalissa järjestettävään Kamarikuorojen kevät -konserttisarjaan, jossa esiintyvät myös Kamarikuoro Kampin Laulu, joht. Saara Aittakumpu (23.4.), Kamarikuoro Audite, joht. Jani Sivén (14.5.), Spira Ensemble, joht. George Parris (15.5.) ja Somnium Ensemble, joht. Elisa Huovinen (21.5.). Kaamoksen konserttikokonaisuus kuullaan myös Hämeenlinnan kirkossa la 14.5.2022 klo 18 ja Tampereen tuomiokirkossa su 15.5.2022 klo 16. 
+
+
+      Suomen Säveltäjät ry on tukenut konsertin toteuttamista kotimaisen nykymusiikin esittämistuella.
