@@ -1168,12 +1168,14 @@ concerts:
 
 
       Suomen Säveltäjät ry on tukenut konsertin toteuttamista kotimaisen nykymusiikin esittämistuella.
-  - begins: 2022-11-19 18:00
-    title: Kamarikuoro Kaamoksen 15-vuotisjuhlakonsertti
-    venue: Temppeliaukion kirkko
-    address: Lutherinkatu 3, 00100 Helsinki
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/kamarikuoro-kaamoksen-15-vuotisjuhlakonsertti/
     conductor: Visa Yrjölä
     admission: 25/20/15 ovelta, 22/17/12 ennakkoon ostettuna
+    facebookURL: https://fb.me/e/4yzdiBILp
+    begins: 2022-11-19 18:00
+    venue: Temppeliaukion kirkko
+    address: Lutherinkatu 3, 00100 Helsinki
+    title: Kamarikuoro Kaamoksen 15-vuotisjuhlakonsertti
     description: Kaamos täyttää 15 vuotta! Tervetuloa mukaamme juhlimaan
       Temppeliaukion kirkkoon 19.11.2022 klo 18.00. Konsertissa kuullaan
       kuorolle tärkeää musiikkia vuosien varrelta säveltäjiltä Gustav Mahler,
