@@ -1189,10 +1189,12 @@ concerts:
       tunnelmallisessa Porvoossa. Tervetuloa!
     conductor: Visa Yrjölä
     admission: Vapaa pääsy, käsiohjelma 20/15/10
-  - begins: 2022-12-10 18:00
-    title: Talviyö - Joulukonsertti
-    venue: Mikael Agricolan kirkko
-    address: Tehtaankatu 23, 00150 Helsinki
-    description: Tervetuloa perinteiseen joulukonserttiimme Mikael Agricolan kirkkoon!
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/talviyo-joulukonsertti-helsinki-1012/
     conductor: Visa Yrjölä
     admission: 25/20/15 ovelta, 22/17/12 etukäteen ostettuna
+    facebookURL: https://www.facebook.com/events/862070888145203
+    begins: 2022-12-10 18:00
+    venue: Mikael Agricolan kirkko
+    address: Tehtaankatu 23, 00150 Helsinki
+    title: Talviyö - Joulukonsertti
+    description: Tervetuloa perinteiseen joulukonserttiimme Mikael Agricolan kirkkoon!
