@@ -1181,14 +1181,16 @@ concerts:
       kuorolle tärkeää musiikkia vuosien varrelta säveltäjiltä Gustav Mahler,
       Cyrillus Kreek, Jørgen Jersild, Anja Riska, Morten Lauridsen, Vienna Teng
       sekä Ola Gjeilo.
-  - begins: 2022-12-09 19:00
-    title: Talviyö - Joulukonsertti
-    venue: Porvoon tuomiokirkko
-    address: Kirkkotori 1, 06100 Porvoo
-    description: Laulamme perinteisen Talviyö-joulukonsertin tänä jouluna myös
-      tunnelmallisessa Porvoossa. Tervetuloa!
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/talviyo-joulukonsertti-porvoo-912/
     conductor: Visa Yrjölä
     admission: Vapaa pääsy, käsiohjelma 20/15/10
+    facebookURL: https://www.facebook.com/events/1344690259672458
+    begins: 2022-12-09 19:00
+    venue: Porvoon tuomiokirkko
+    address: Kirkkotori 1, 06100 Porvoo
+    title: Talviyö - Joulukonsertti
+    description: Laulamme perinteisen Talviyö-joulukonsertin tänä jouluna myös
+      tunnelmallisessa Porvoossa. Tervetuloa!
   - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/talviyo-joulukonsertti-helsinki-1012/
     conductor: Visa Yrjölä
     admission: 25/20/15 ovelta, 22/17/12 etukäteen ostettuna
