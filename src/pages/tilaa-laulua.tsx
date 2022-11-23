@@ -21,9 +21,8 @@ const TilaaLaulua: React.FC = () => (
         </p>
 
         <p className="block">
-          Ota yhteyttä: ensemblevastaava Karoliina Vidgren,{" "}
-          <a href="mailto:karoliina@mac.com">karoliina@mac.com</a>, puh. 050 537
-          6818.
+          Ota yhteyttä: ensemblevastaava Miia Mannerla,{" "}
+          <a href="mailto:miia.mannerla@gmail.com">miia.mannerla@gmail.com</a>, puh. 050 589 7204.
         </p>
 
         <img src={ensembleImage} className="block" />
