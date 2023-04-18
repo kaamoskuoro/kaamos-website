@@ -7,7 +7,7 @@ const CMS_PATH = "/admin/"
 const Footer: React.FC = props => (
   <div className="content has-text-centered">
     <p className="has-text-grey">
-      &copy; Kamarikuoro Kaamos 2011–2022
+      &copy; Kamarikuoro Kaamos 2011–2023
       <br />
       <a href={CMS_PATH}>
         <FontAwesomeIcon icon={faFeatherAlt} /> CMS
