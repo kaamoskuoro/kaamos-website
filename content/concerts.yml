@@ -1200,3 +1200,13 @@ concerts:
     address: Tehtaankatu 23, 00150 Helsinki
     title: Talviyö - Joulukonsertti
     description: Tervetuloa perinteiseen joulukonserttiimme Mikael Agricolan kirkkoon!
+  - begins: 2023-05-25 19:00
+    title: Kolme B:tä – Bach, Brahms, Byström
+    venue: Ritarihuone
+    address: Ritarikatu 1, 00170 Helsinki
+    description: Länsimaisen taidemusiikin ”Kolmella suurella B:llä” viitataan
+      yleensä J. S. Bachiin, Beethoveniin ja Brahmsiin. Beethovenin tuotanto ei
+      kuitenkaan ole kaikkein kamarikuoroystävällisintä, ja ennen kaikkea
+      vaihtelu virkistää, joten Kamarikuoro Kaamoksen konsertissa kolmanneksi
+      suureksi B:ksi nostetaankin mainio ruotsalaissäveltäjä Britta Byström.
+    conductor: Visa Yrjölä
