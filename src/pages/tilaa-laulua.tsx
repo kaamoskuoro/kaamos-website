@@ -21,8 +21,8 @@ const TilaaLaulua: React.FC = () => (
         </p>
 
         <p className="block">
-          Ota yhteyttä: ensemblevastaava Miia Mannerla,{" "}
-          <a href="mailto:miia.mannerla@gmail.com">miia.mannerla@gmail.com</a>, puh. 050 589 7204.
+          Ota yhteyttä: ensemblevastaava Markus Lehtonen,{" "}
+          <a href="mailto:mtlehto@gmail.com">mtlehto@gmail.com</a>, puh. 050 301 4585.
         </p>
 
         <img src={ensembleImage} className="block" />
@@ -38,9 +38,9 @@ const TilaaLaulua: React.FC = () => (
           Ota tässä tapauksessa yhteyttä: kuoron taiteellinen johtaja Visa
           Yrjölä,{" "}
           <a href="mailto:visa.yrjola@gmail.com">visa.yrjola@gmail.com</a>, puh.
-          040 521 8976 tai puheenjohtaja Aino Herranen,{" "}
-          <a href="mailto:aino.herranen@gmail.com">aino.herranen@gmail.com</a>,
-          puh. 050 354 6275.
+          040 521 8976 tai puheenjohtaja Maisa Mikkonen,{" "}
+          <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>,
+          puh. 041 514 5312.
         </p>
       </div>
     </div>
