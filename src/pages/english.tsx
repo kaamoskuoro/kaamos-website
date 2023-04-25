@@ -74,13 +74,13 @@ const English: React.FC = () => (
           visa.yrjola@gmail.com
         </p>
         <p className="block">
-          <strong>Aino Herranen</strong>
+          <strong>Maisa Mikkonen</strong>
           <br />
           President
           <br />
-          +358 50 354 6275
+          +358 41 514 5312
           <br />
-          aino.herranen@gmail.com
+          kamarikuorokaamos@gmail.com
         </p>
       </div>
     </div>
