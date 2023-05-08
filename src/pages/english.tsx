@@ -42,24 +42,11 @@ const English: React.FC = () => (
         </p>
 
         <p className="block">
-          Visa Yrjölä (b. 1992) received his Master of Music degree in choral
-          conducting from the Sibelius Academy (University of the Arts,
-          Helsinki) in 2018. He has also done exchange studies at the University
-          of Music and Performing Arts, Vienna. Besides the artistic leadership
-          of the Kaamos Chamber Choir, he conducts two award-winning male
-          choirs: the Euga Male Voice Choir and the Helsinki Academic Male Choir
-          KYL.
+          Visa Yrjölä (b. 1992) received his Master of Music degree in choral conducting from the Sibelius Academy (University of the Arts, Helsinki) in 2018. He has also done exchange studies at the University of Music and Performing Arts, Vienna. Besides being the artistic leader of the Kaamos Chamber Choir, he conducts two award-winning male voice choirs in Finland: the Euga Male Voice Choir and the Helsinki Academic Male Choir KYL. He has served as a guest conductor in projects with several Finnish groups including Key Ensemble and Somnium Ensemble.  
         </p>
 
         <p className="block">
-          Yrjölä has attended several masterclasses organized by Tenso, The
-          European Network for Professional Chamber Choirs, working with
-          Cappella Amsterdam, the Helsinki Chamber Choir, the Netherlands
-          Chamber Choir, the Slovenian Philharmonic Choir and the Croatian
-          Radiotelevision Choir. In 2013, the Tampere Vocal Music Festival
-          awarded Visa Yrjölä a special prize for a young and promising
-          conductor, and in June 2018 he was awarded the best conductor’s prize
-          at the Bratislava Choir Festival.
+          Yrjölä has attended several masterclasses organized by Tenso, the European Network for Professional Chamber Choirs, working with Cappella Amsterdam, the Helsinki Chamber Choir, the Netherlands Chamber Choir, the Slovenian Philharmonic Choir, and the Croatian Radiotelevision Choir. He has also attended a masterclass with the Rundfunkchor Berlin. In 2013, the Tampere Vocal Music Festival awarded Visa Yrjölä a special prize for a young and promising conductor, and in June 2018, he was awarded the best conductor’s prize at the Bratislava Choir Festival. The Finnish radio channel Radio Classic awarded him the Tempo Award for young musicians in the conductors’ category in 2019.
         </p>
 
         <h4 className="title is-4">Contact:</h4>
