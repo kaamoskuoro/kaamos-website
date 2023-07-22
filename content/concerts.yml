@@ -1222,3 +1222,9 @@ concerts:
     venue: Kallion kirkko
     conductor: Visa Yrjölä
     address: Itäinen Papinkatu 2, 00530 Helsinki
+  - begins: 2023-12-09 18:00
+    title: Talviyö - Joulukonsertti
+    venue: Mikael Agricolan kirkko
+    description: Tervetuloa perinteiseen joulukonserttiimme Mikael Agricolan kirkkoon!
+    conductor: Visa Yrjölä
+    address: Tehtaankatu 23, 00150 Helsinki
