@@ -1217,12 +1217,14 @@ concerts:
 
 
       Ritarihuoneella on konsertin yhteydessä toiminnassa kahvio, josta voi ostaa kahvia ja teetä, pikkupurtavaa tai nauttia vaikka lasin kuohuvaa. Konserttia edeltää klo 18.15 alkava teosesittelytilaisuus, joka kestää n. 30 minuuttia.
-  - begins: 2023-10-07 19:00
-    title: Kuoro ja yhteiskunta
-    venue: Kallion kirkko
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/kuoro-ja-yhteiskunta/
     conductor: Visa Yrjölä
-    address: Itäinen Papinkatu 2, 00530 Helsinki
+    admission: 25/15
     facebookURL: https://fb.me/e/uwUSUG38r
+    begins: 2023-10-07 19:00
+    venue: Kallion kirkko
+    address: Itäinen Papinkatu 2, 00530 Helsinki
+    title: Kuoro ja yhteiskunta
     description: >-
       Kuoro ja yhteiskunta -konserttiin on valittu teoksia, jotka käsittelevät
       ja pohdiskelevat monenlaisia yhteiskunnallisia teemoja. Kaikki aiheet ovat
@@ -1291,7 +1293,6 @@ concerts:
       säv. Emil Genetz (1852–1930), san. Arvid Genetz (Arvi Jännes)
 
       Karjala (1892?)
-    admission: 25/15
   - begins: 2023-12-09 18:00
     title: Talviyö - Joulukonsertti
     venue: Mikael Agricolan kirkko
