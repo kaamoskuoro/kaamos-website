@@ -1346,6 +1346,7 @@ concerts:
     address: Ritarikatu 1, 00170 Helsinki
     conductor: Visa Yrjölä
     admission: 25/15
+    ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/legendaarista-ritarihuone-1822024-klo-1900/
   - begins: 2024-05-23 19:00
     title: "Rautavaara: Vigilia"
     venue: Temppeliaukion kirkko
