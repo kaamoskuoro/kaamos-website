@@ -1347,11 +1347,24 @@ concerts:
     conductor: Visa Yrjölä
     admission: 25/15
     ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/legendaarista-ritarihuone-1842024-klo-1900/
+    description: >-
+      Kamarikuoro Kaamoksen Legendaarista!-konsertissa sukelletaan
+      mytologioiden, myyttien ja runollisen uskonnollisuuden maailmoihin.
+      Räiskyvän konsertin kohokohtia on muun muassa Bengt Johanssonin harvoin
+      esitetty suomalaisen modernismin klassikko The Tomb at Akr Çaar, jossa
+      muumioidun vainajan sielu tulee tiukkasanaisille juttusille ruumiinsa
+      kanssa.
+
+
+      Konsertti kuuluu Kuoromusiikin kausikonsertit -sarjaan.
   - begins: 2024-05-23 19:00
     title: "Rautavaara: Vigilia"
     venue: Temppeliaukion kirkko
     address: Lutherinkatu 3, 00100 Helsinki
-    description: Kamarikuoro Kaamos ja Somnium Ensemble
+    description: |-
+      Kamarikuoro Kaamos ja Somnium Ensemble
+
+      Konsertti kuuluu Kuoromusiikin kausikonsertit -sarjaan.
     conductor: Elisa Huovinen ja Visa Yrjölä
     ticketURL: https://holvi.com/shop/somniumensemble/section/paasyliput/
     admission: 30/20
