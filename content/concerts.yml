@@ -1340,13 +1340,14 @@ concerts:
       Ahti Sonninen: Jouluhymni
 
       trad. Maa on niin kaunis
-  - begins: 2024-04-18 19:00
-    title: Legendaarista!
-    venue: Ritarihuone
-    address: Ritarikatu 1, 00170 Helsinki
+  - ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/legendaarista-ritarihuone-1842024-klo-1900/
     conductor: Visa Yrjölä
     admission: 25/15
-    ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/legendaarista-ritarihuone-1842024-klo-1900/
+    facebookURL: https://www.facebook.com/events/393502190077923/
+    begins: 2024-04-18 19:00
+    venue: Ritarihuone
+    address: Ritarikatu 1, 00170 Helsinki
+    title: Legendaarista!
     description: >-
       baritoni Veikko Vallinoja
 
