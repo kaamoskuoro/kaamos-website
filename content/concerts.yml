@@ -1415,13 +1415,14 @@ concerts:
 
 
       Ola Gjeilo (1978–): Unicornis Captivatur (2001)
-  - begins: 2024-05-23 19:00
-    title: "Rautavaara: Vigilia"
+  - ticketURL: https://holvi.com/shop/somniumensemble/section/paasyliput/
+    conductor: Elisa Huovinen ja Visa Yrjölä
+    admission: 30/20
+    facebookURL: https://www.facebook.com/events/1456571158550176/
+    begins: 2024-05-23 19:00
     venue: Temppeliaukion kirkko
     address: Lutherinkatu 3, 00100 Helsinki
+    title: "Rautavaara: Vigilia"
     description: |-
       Kamarikuoro Kaamos ja Somnium Ensemble
       Konsertti kuuluu Kuoromusiikin kausikonsertit -sarjaan.
-    conductor: Elisa Huovinen ja Visa Yrjölä
-    ticketURL: https://holvi.com/shop/somniumensemble/section/paasyliput/
-    admission: 30/20
