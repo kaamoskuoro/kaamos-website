@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import choirContent from "../../content/choir.yml"
-import singersImage from "../images/singers.jpg"
+import singersImage from "../images/Kaamos_Esittely_10_2024.jpg"
 
 const { sopranos, altos, tenors, basses } = choirContent
 
