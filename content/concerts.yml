@@ -1655,7 +1655,7 @@ concerts:
     venue: Saksalainen kirkko
     address: Unioninkatu 1 , 00130 Helsinki
     conductor: Visa Yrjölä
-    description: >
+    description: >-
       Kamarikuoro Kaamoksen Abendlied-konsertti saa nimensä itseoikeutetusti
       konsertin päättävästä liechtensteinilaisen säveltäjän Josef Rheinbergerin
       superhitistä. Konsertissa kuullaan myös saman opuksen kaksi aiempaa osaa
@@ -1725,4 +1725,7 @@ concerts:
       säv. Josef Rheinberger (1839–1901), san. Raamatusta
 
       Abendlied (Drei geistliche Gesänge, Op. 69: 3.)
+
+
+      LIPUT 25/15
     ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/abendlied-konsertti-1142025/
