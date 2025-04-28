@@ -13,7 +13,7 @@ const HaeKuoroon: React.FC = () => (
         <h3 className="title is-3">Hae Kuoroon</h3>
 
         <p className="block">
-          Tälle sivulle päivitetään infoa Kaamoksen tulevista koelauluista!
+          Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen visa.yrjola@gmail.com. Kerro viestissä äänialasi sekä musiikkitaustasi. Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa. Kuoro harjoittelee tiistai-iltaisin Mikael Agricolan kirkossa.<br></br>Nähdään koelauluissa!
         </p>
 
         <img src={ensembleImage} className="block" />
