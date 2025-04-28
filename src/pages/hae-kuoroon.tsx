@@ -20,7 +20,7 @@ Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen
 Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.
 <br>
 Kuoro harjoittelee tiistai-iltaisin Mikael Agricolan kirkossa.
-<br></br>
+<br>
 <b>Nähdään koelauluissa!</b></p>
 
         <img src={ensembleImage} className="block" />
