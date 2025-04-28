@@ -15,7 +15,7 @@ const HaeKuoroon: React.FC = () => (
         <p className="block">
 Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.
 <br>
-Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen visa.yrjola@gmail.com. Kerro viestissä äänialasi sekä musiikkitaustasi.
+Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen <a href="mailto:visa.yrjola@gmail.com">visa.yrjola@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.
 <br>
 Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.
 <br>
