@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ensembleImage from "../images/ensemble.jpg"
 
-const TilaaLaulua: React.FC = () => (
+const HaeKuoroon: React.FC = () => (
   <Layout>
     <SEO title="Hea kuoroon" />
 
@@ -23,4 +23,4 @@ const TilaaLaulua: React.FC = () => (
   </Layout>
 )
 
-export default TilaaLaulua
+export default HaeKuoroon
