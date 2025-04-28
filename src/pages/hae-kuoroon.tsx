@@ -14,13 +14,13 @@ const HaeKuoroon: React.FC = () => (
 
         <p className="block">
 Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.
-<br>
+<br />
 Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen <a href="mailto:visa.yrjola@gmail.com">visa.yrjola@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.
-<br>
+<br />
 Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.
-<br>
+<br />
 Kuoro harjoittelee tiistai-iltaisin Mikael Agricolan kirkossa.
-<br>
+<br />
 <b>Nähdään koelauluissa!</b></p>
 
         <img src={ensembleImage} className="block" />
