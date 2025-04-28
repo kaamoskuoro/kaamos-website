@@ -10,7 +10,7 @@ const TilaaLaulua: React.FC = () => (
 
     <div className="columns">
       <div className="column is-8">
-        <h3 className="title is-3">Tilaa laulua! [temp]</h3>
+        <h3 className="title is-3">Hae Kuoroon</h3>
 
         <p className="block">
           Tälle sivulle päivitetään infoa Kaamoksen tulevista koelauluista!
