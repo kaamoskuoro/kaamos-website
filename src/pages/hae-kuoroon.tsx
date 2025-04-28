@@ -13,8 +13,15 @@ const HaeKuoroon: React.FC = () => (
         <h3 className="title is-3">Hae Kuoroon</h3>
 
         <p className="block">
-          Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen visa.yrjola@gmail.com. Kerro viestissä äänialasi sekä musiikkitaustasi. Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa. Kuoro harjoittelee tiistai-iltaisin Mikael Agricolan kirkossa.<br></br>Nähdään koelauluissa!
-        </p>
+Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.
+<br>
+Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen visa.yrjola@gmail.com. Kerro viestissä äänialasi sekä musiikkitaustasi.
+<br>
+Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.
+<br>
+Kuoro harjoittelee tiistai-iltaisin Mikael Agricolan kirkossa.
+<br></br>
+<b>Nähdään koelauluissa!</b></p>
 
         <img src={ensembleImage} className="block" />
 
