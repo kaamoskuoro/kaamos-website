@@ -39,8 +39,7 @@ const TilaaLaulua: React.FC = () => (
           Yrjölä,{" "}
           <a href="mailto:visa.yrjola@gmail.com">visa.yrjola@gmail.com</a>, puh.
           040 521 8976 tai puheenjohtaja Jussi Alaranta,{" "}
-          <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>,
-          puh. 041 514 5312.
+          <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>.
         </p>
       </div>
     </div>
