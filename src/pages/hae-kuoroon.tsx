@@ -13,7 +13,7 @@ const HaeKuoroon: React.FC = () => (
         <h3 className="title is-3">Hae Kuoroon</h3>
 
         <p className="block">
-<p><b></b>Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.</b></p>>
+<p><b>Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.</b></p>
 
 <p>Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen <a href="mailto:visa.yrjola@gmail.com">visa.yrjola@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.</p>
 
