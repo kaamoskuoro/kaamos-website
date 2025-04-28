@@ -17,7 +17,7 @@ const HaeKuoroon: React.FC = () => (
 
 <p>Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen <a href="mailto:visa.yrjola@gmail.com">visa.yrjola@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.</p>
 
-<p></p>Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.</p>
+<p>Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.</p>
 
 <p>Kuoro harjoittelee tiistai-iltaisin Mikael Agricolan kirkossa.</p>
 
