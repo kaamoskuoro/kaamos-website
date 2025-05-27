@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ensembleImage from "../images/choir2.jpg"
+import ensembleImage from "../images/ensemble.jpg"
 
 const TilaaLaulua: React.FC = () => (
   <Layout>
