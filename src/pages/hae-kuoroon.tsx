@@ -27,6 +27,7 @@ const HaeKuoroon: React.FC = () => (
 
       </div>
     </div>
+  </div>
   </Layout>
 )
 
