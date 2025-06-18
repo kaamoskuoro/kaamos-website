@@ -12,7 +12,7 @@ const HaeKuoroon: React.FC = () => (
       <div className="column is-8">
         <h3 className="title is-3">Hae Kuoroon</h3>
 
-        <p className="block">
+        <div className="block">
 <p><b>Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.</b></p>
 
 <p>Kiinnostuneita pyydetään ilmoittautumaan johtaja osoitteeseen <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.</p>
