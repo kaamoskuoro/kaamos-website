@@ -10,7 +10,7 @@ const HaeKuoroon: React.FC = () => (
 
     <div className="columns">
       <div className="column is-8">
-        <h3 className="title is-3">Hae Kuoroon</h3>
+        <h3 className="title is-3">Hae kuoroon</h3>
 
 <p className="block">
 <b>Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.</b>
