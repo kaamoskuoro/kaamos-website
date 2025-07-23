@@ -6,7 +6,7 @@ import ensembleImage from "../images/choir2.jpg"
 
 const HaeKuoroon: React.FC = () => (
   <Layout>
-    <SEO title="Hea kuoroon" />
+    <SEO title="Hae kuoroon" />
 
     <div className="columns">
       <div className="column is-8">
@@ -17,7 +17,7 @@ const HaeKuoroon: React.FC = () => (
 </p>
 
 <p className="block">
-Kiinnostuneita pyydetään ilmoittautumaan johtaja osoitteeseen <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.
+Kiinnostuneita pyydetään ilmoittautumaan johtaja Visa Yrjölälle osoitteeseen <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>. Kerro viestissä äänialasi sekä musiikkitaustasi.
 </p>
 
 <p className="block">    
@@ -25,7 +25,7 @@ Koelauluajankohta sovitaan erikseen ilmoittautuneiden kanssa.
 </p>
 
 <p className="block">
-Kuoro harjoittelee tiistai-iltaisin Helsingissä.
+Kuoro harjoittelee tiistai-iltaisin Etelä-Haagassa.
 </p>
 
 <p className="block">
