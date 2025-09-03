@@ -1860,12 +1860,6 @@ concerts:
 
       Abendlied (Drei geistliche Gesänge, Op. 69: 3.)
     facebookURL: https://www.facebook.com/events/1699840447292557/
-  - begins: 2025-12-12 19:00
-    title: Talviyö - Joulukonsertti
-    venue: Saksalainen kirkko
-    address: Unioninkatu 1 , 00130 Helsinki
-    description: Kamarikuoro Kaamoksen perinteinen Talviyö-joulukonsertti.
-    conductor: Visa Yrjölä
   - begins: 2025-10-26 15:00
     title: So last century – aikamatka 1900-luvun halki
     venue: Balderin sali
@@ -1963,3 +1957,9 @@ concerts:
       Liput 25/15
     conductor: Visa Yrjölä
     ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/so-last-century-konsertti-26102026/
+  - begins: 2025-12-12 19:00
+    title: Talviyö - Joulukonsertti
+    venue: Saksalainen kirkko
+    address: Unioninkatu 1 , 00130 Helsinki
+    description: Kamarikuoro Kaamoksen perinteinen Talviyö-joulukonsertti.
+    conductor: Visa Yrjölä
