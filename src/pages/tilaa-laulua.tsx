@@ -22,7 +22,7 @@ const TilaaLaulua: React.FC = () => (
 
         <p className="block">
           Ota yhteyttä: ensemblevastaava Markus Lehtonen,{" "}
-          <a href="mailto:mtlehto@gmail.com">mtlehto@gmail.com</a>, puh. 050 301 4585.
+          <a href="mailto:mtlehto3@gmail.com">mtlehto3@gmail.com</a>, puh. 050 301 4585.
         </p>
 
         <img src={ensembleImage} className="block" />
