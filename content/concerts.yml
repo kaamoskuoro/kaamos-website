@@ -1962,5 +1962,9 @@ concerts:
     title: Talviyö - Joulukonsertti
     venue: Saksalainen kirkko
     address: Unioninkatu 1 , 00130 Helsinki
-    description: Kamarikuoro Kaamoksen perinteinen Talviyö-joulukonsertti.
+    description: |-
+      Kamarikuoro Kaamoksen perinteinen Talviyö-joulukonsertti.
+
+      LIPUT 25/15
     conductor: Visa Yrjölä
+    ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/talviyo-12122025-joulukonsertti/
