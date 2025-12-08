@@ -2059,5 +2059,7 @@ concerts:
     title: Laudatio Domini
     venue: Paavalinkirkko
     address: Sammatintie 5, 00550 Helsinki
-    description: Kamarikuoro Kaamoksen kevätkonsertti
+    description: |-
+      Kamarikuoro Kaamoksen kevätkonsertti.
+      Konsertti kuuluu Kuoromusiikin kausikonsertit -sarjaan.
     conductor: Visa Yrjölä
