@@ -13,7 +13,7 @@ const HaeKuoroon: React.FC = () => (
         <h3 className="title is-3">Hae kuoroon</h3>
 
 <p className="block">
-<b>Uusia laulajia haetaan tällä hetkellä kaikkiin stemmoihin.</b>
+<b>Etsimme tällä hetkellä ensisijaisimmin tenoreita ja matalia bassoja, mutta kuoron ovi saattaa aueta myös oikein taitavalle ykkössopraanolle tai altolle.</b>
 </p>
 
 <p className="block">
