@@ -213,6 +213,12 @@ newsItems:
       omasi nyt!
     url: https://holvi.com/shop/kamarikuorokaamos/product/376f1fcab1b31c7e2e3269c5cdae8e43/
 quotes:
+  - body: ”... kuoro hallitsi samanaikaisesti hoikan, läpikuultavan ja tarvittaessa
+      täyteläisen, mehukkaan sointimassan, jota se Yrjölän selkeässä ja
+      joustavassa johdossa käytti hienostuneella harkinnalla ja erehtymättömällä
+      hyvällä maulla.”
+    author: Mats Liljeroos
+    publication: Kuoromusiikin kausikonsertit 25.4.2026
   - body: ”Kaamos soi täyteläisen tasapainoisena ja sangen läpikuultavana.
       Ääniryhmät erottuivat omiksi ilmeikkäiksi linjoikseen ja sulautuivat
       puhtaasti ja homogeenisesti toisiinsa. Teksti pysyi selkeänä”
@@ -235,9 +241,3 @@ quotes:
       och tonal precision samt ett genomgående kreativt tolkningsmässigt grepp.”
     author: Mats Liljeroos
     publication: Hufvudstadsbladet
-  - body: ”... kuoro hallitsi samanaikaisesti hoikan, läpikuultavan ja tarvittaessa
-      täyteläisen, mehukkaan sointimassan, jota se Yrjölän selkeässä ja
-      joustavassa johdossa käytti hienostuneella harkinnalla ja erehtymättömällä
-      hyvällä maulla.”
-    author: Mats Liljeroos
-    publication: 25.4.2026
