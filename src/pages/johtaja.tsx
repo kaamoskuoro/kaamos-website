@@ -17,7 +17,7 @@ const Johtaja: React.FC = () => (
         </p>
 
         <p className="block">
-          Kamarikuoro Kaamoksen lisäksi Visa Yrjölä johtaa kahta palkittua mieskuoroa: Mieskuoro Eugaa sekä Kauppakorkeakoulun Ylioppilaskunnan Laulajia KYL:liä. Lisäksi hän on vieraillut mm. Somnium Ensemblen ja Key Ensemblen kuoronjohtajana. Vuoden 2013 Tampereen Sävelen kuorokatselmuksessa Yrjölälle myönnettiin nuoren ja lupaavan johtajan erikoispalkinto, ja kesällä 2018 Bratislava Choir Festivalilla parhaan kuoronjohtajan palkinto. Maaliskuussa 2019 Radio Classic myönsi hänelle nuorten muusikoiden Tempo-palkinnon kapellimestari- / kuoronjohtajakategoriassa.
+          Kamarikuoro Kaamoksen lisäksi Visa Yrjölä johtaa kahta palkittua mieskuoroa: Mieskuoro Eugaa sekä Kauppakorkeakoulun Ylioppilaskunnan Laulajia KYL:liä. Lisäksi hän on vieraillut mm. Somnium Ensemblen ja Key Ensemblen kuoronjohtajana. Vuoden 2013 Tampereen Sävelen kuorokatselmuksessa Yrjölälle myönnettiin nuoren ja lupaavan johtajan erikoispalkinto, ja kesällä 2018 Bratislava Choir Festivalilla parhaan kuoronjohtajan palkinto. Maaliskuussa 2019 Radio Classic myönsi hänelle nuorten muusikoiden Tempo-palkinnon kapellimestari- / kuoronjohtajakategoriassa. Kuoronjohtajayhdistys valitsi Yrjölän Vuoden kuoronjohtajaksi 2025.
         </p>
 
         <img src={conductorImage} />
