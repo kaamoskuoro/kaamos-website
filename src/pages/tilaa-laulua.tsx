@@ -21,8 +21,8 @@ const TilaaLaulua: React.FC = () => (
         </p>
 
         <p className="block">
-          Ota yhteyttä: ensemblevastaava Markus Lehtonen,{" "}
-          <a href="mailto:mtlehto3@gmail.com">mtlehto3@gmail.com</a>, puh. 050 301 4585.
+          Ota yhteyttä:{" "}
+          <a href="mailto:kamarikuorokaamos@gmail.com">kamarikuorokaamos@gmail.com</a>
         </p>
 
         <img src={ensembleImage} className="block" />
