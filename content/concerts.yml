@@ -2165,3 +2165,41 @@ concerts:
     venue: Olaus Petrin kirkko
     address: Minervankatu 6, 00100 Helsinki
     conductor: Visa Yrjölä
+  - begins: 2027-03-24 19:00
+    title: Kohti korkeuksia – HKO, Kamarikuoro Kaamos & Kamarikuoro Kampin laulu
+    venue: Musiikkitalon konserttisali
+    address: Mannerheimintie 13a, 00100 Helsinki
+    description: >-
+      Pääsiäisenviettoon rauhoitutaan teoksilla, joiden säveltäjät ottivat
+      etäisyyttä perinteiseen kristilliseen kirkkomusiikkiin.
+
+
+      Nil Venditti, kapellimestari
+
+      Sonja Herranen, sopraano
+
+      Aarne Pelkonen, baritoni
+
+      Kamarikuoro Kaamos
+
+      Kamarikuoro Kampin laulu
+
+
+      Gabriel Fauré: Pavane
+
+      Olivier Messiaen: Ylösnousemus
+
+      Gabriel Fauré: Requiem
+
+
+      Syvästi hengellinen säveltäjä Olivier Messiaen halusi valjastaa musiikkinsa mystisten päämäärien saavuttamiseen. Hän perehtyi vanhoihin kirkkosävelmiin, hindumusiikin rytmeihin ja linnunlauluun. Nämä ainekset saavat omat heijasteensa hänen meditatiivisessa teoksessaan Ylösnousemus.
+
+
+      ”Soitettuani vuositolkulla hautajaisissa olin sitä kurkkuani myöten täynnä. Halusin saada aikaan jotain erilaista.” Urkurina uransa tehnyt Gabriel Fauré kertoi vuonna 1902 tehdyssä haastattelussa halunneensa poiketa perinteisiltä poluilta Requiemiaan säveltäessään. ”Laitoin siihen kaikki ne uskonnolliset illuusiot, joita jaksoin vaalia. Lisäksi teosta hallitsee alusta loppuun hyvin inhimillinen usko ikuiseen lepoon.”
+    conductor: Nil Venditti
+    readMoreURL: https://musiikkitalo.fi/konsertit-ja-tapahtumat/hko-kohti-korkeuksia-24-3-2027
+  - begins: 2027-05-23 18:00
+    title: Anima – levynjulkistuskonsertti
+    venue: Olaus Petrin kirkko
+    address: Minervankatu 6, 00100 Helsinki
+    conductor: Visa Yrjölä
