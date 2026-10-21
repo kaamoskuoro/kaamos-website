@@ -2220,6 +2220,7 @@ concerts:
 
 
       Vapaa pääsy. Käsiohjelma 20 €.
+    facebookURL: https://www.facebook.com/share/1C4HaSxDYr/?mibextid=wwXIfr
   - begins: 2026-12-20 18:00
     title: Talviyö - Joulukonsertti
     venue: Olaus Petrin kirkko
@@ -2233,6 +2234,8 @@ concerts:
       jouluaiheisia teoksia. Mukana on tietysti myös suuren yleisön tuntemia,
       perinteisiä joululauluja. Lämpimästi tervetuloa rauhoittumaan joulun
       aikaan Kamarikuoro Kaamoksen soinnin siivittämänä!
+    ticketURL: https://holvi.com/shop/kamarikuorokaamos/section/talviyo-joulukonsertti-20122026/
+    facebookURL: https://www.facebook.com/share/18qURgBp3a/?mibextid=wwXIfr
   - begins: 2027-03-24 19:00
     title: Kohti korkeuksia – HKO, Kamarikuoro Kaamos & Kamarikuoro Kampin laulu
     venue: Musiikkitalon konserttisali
